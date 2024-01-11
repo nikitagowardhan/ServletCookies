@@ -33,7 +33,7 @@ public class ProfileServlet extends HttpServlet {
         }  
         }
         else{  
-            p.print("Please login first");  
+            p.print("Please login first<br>");  
             request.getRequestDispatcher("login.html").include(request, response);  
         }  
 
