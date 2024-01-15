@@ -22,7 +22,7 @@ public class LogoutServlet extends HttpServlet {
           
         request.getRequestDispatcher("link.html").include(request, response);  
           
-        Cookie c=new Cookie("name","");  
+        Cookie c=new Cookie("uname","");  
         c.setMaxAge(0);  
         response.addCookie(c);  
           
